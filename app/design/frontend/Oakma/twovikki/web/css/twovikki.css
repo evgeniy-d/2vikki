@@ -1,9 +1,8 @@
-/*! Pagekit Brick 1.0.0 | (c) 2014 Pagekit | MIT License */
 @import 'https://fonts.googleapis.com/css?family=Montserrat:700,400';
 @import 'https://fonts.googleapis.com/css?family=Roboto:400,300';
 
 html {
-    font: 300 16px / 26px 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     background: #f3f3f3 !important;
@@ -283,13 +282,13 @@ mark {
     clear: both
 }
 
-.uk-grid > * {
+/*.uk-grid > * {
     -ms-flex: none;
     -webkit-flex: none;
     flex: none;
     margin: 0;
     float: left
-}
+}*/
 
 .uk-grid > * > :last-child {
     margin-bottom: 0
@@ -1870,7 +1869,6 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 
 .uk-navbar-brand {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 2px
 }
 
@@ -9187,3 +9185,9 @@ html {
     }
 }
 
+.twm-black {
+    color: #000 !important;
+}
+.block-static-block.widget, .block-cms-link.widget {
+    margin-bottom: 0 !important;
+}

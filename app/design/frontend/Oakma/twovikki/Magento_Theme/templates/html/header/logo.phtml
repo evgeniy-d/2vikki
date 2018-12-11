@@ -17,7 +17,7 @@
     <a class="uk-navbar-brand" href="<?= $block->getUrl('') ?>" title="<?= /* @escapeNotVerified */ $storeName ?>">
 <?php endif ?>
         <img class="twv-logo uk-responsive-height"
-             src="<?= /* @escapeNotVerified */ $block->getLogoSrc() ?>"
+             src="<?= /* @escapeNotVerified */ $this->getViewFileUrl('images/logo.svg'); //$block->getLogoSrc() ?>"
              title="<?= /* @escapeNotVerified */ $block->getLogoAlt() ?>"
              alt="<?= /* @escapeNotVerified */ $block->getLogoAlt() ?>"
              <?= $block->getLogoWidth() ? 'width="' . $block->getLogoWidth() . '"' : '' ?>
