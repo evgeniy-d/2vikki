@@ -5,10 +5,11 @@ html {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background: #f3f3f3 !important;
+    background: #f3f3f3;
     color: #666;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
+    background: url(../images/bckg.png);
 }
 
 body {
