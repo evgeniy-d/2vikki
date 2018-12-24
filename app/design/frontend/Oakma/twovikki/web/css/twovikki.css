@@ -1,15 +1,16 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:700,400';
 @import 'https://fonts.googleapis.com/css?family=Roboto:400,300';
+@import 'https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic';
 
 html {
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     background: #f3f3f3;
     color: #666;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: url(../images/bckg.png);
+    /*background: url(../images/bckg.png);*/
 }
 
 body {
@@ -1799,7 +1800,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
     box-sizing: border-box;
     display: block;
     height: 90px;
-    padding: 0 20px;
+    padding: 0 10px;
     float: left
 }
 
@@ -8998,7 +8999,8 @@ html {
 @media (min-width: 960px) {
     .twv-container {
         margin-top: 70px;
-        margin-bottom: 70px
+        margin-bottom: 70px;
+        box-shadow: 0 10px 20px #8d8d8d;
     }
 }
 
@@ -9024,6 +9026,10 @@ html {
     background: none
 }
 
+.twv-logo {
+    max-height: 80%;
+    width: auto;
+}
 .twv-logo-contrast {
     display: none
 }
@@ -9191,4 +9197,20 @@ html {
 }
 .block-static-block.widget, .block-cms-link.widget {
     margin-bottom: 0 !important;
+}
+
+.twv-home-product-samle-img {
+    text-align: center;
+    width: 100%;
+}
+.twv-home-product-samle-img > img {
+    max-height: 400px;
+}
+.twv-home-contact-us-img {
+    overflow: hidden;
+    max-height: 450px;
+}
+
+.twv-hero-panel__contact-page > p {
+    font-weight: 500;
 }

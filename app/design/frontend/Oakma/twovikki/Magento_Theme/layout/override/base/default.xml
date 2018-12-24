@@ -112,7 +112,7 @@
             </container>
         </referenceContainer>
         <referenceContainer name="main.content">
-            <block class="Magento\Theme\Block\Html\Breadcrumbs" name="breadcrumbs" as="breadcrumbs"/>
+            <block class="Magento\Theme\Block\Html\Breadcrumbs" name="breadcrumbs" as="breadcrumbs" before="-"/>
         </referenceContainer>
         <referenceContainer name="main">
             <container name="content.top" label="Main Content Top"/>
