@@ -975,7 +975,7 @@ Invoiced,Invoiced
 Shipped,Shipped
 Refunded,Refunded
 Canceled,Canceled
-"As low as","As low as"
+"As low as","Цена от"
 "Regular Price","Regular Price"
 "Buy %1 with %2 discount each","Buy %1 with %2 discount each"
 "Go back to product details","Go back to product details"
@@ -983,8 +983,8 @@ Canceled,Canceled
 "* Required Fields","* Required Fields"
 "Your Customization","Your Customization"
 Availability,Availability
-"In stock","In stock"
-"Out of stock","Out of stock"
+"In stock","В наличии"
+"Out of stock","Нет в наличии"
 Summary,Summary
 "%1 x %2","%1 x %2"
 Availability:,Availability:
@@ -1784,26 +1784,26 @@ Error!,Error!
 "Print receipt","Print receipt"
 "Apply Discount Code","Apply Discount Code"
 "Enter discount code","Enter discount code"
-"Apply Discount","Apply Discount"
-"Cancel Coupon","Cancel Coupon"
-"Shopping Cart Items","Shopping Cart Items"
+"Apply Discount","Применить Дисконт"
+"Cancel Coupon","Отменить Купон"
+"Shopping Cart Items","Товары в Корзине"
 Item,Item
-"Continue Shopping","Continue Shopping"
-"Clear Shopping Cart","Clear Shopping Cart"
-"Update Shopping Cart","Update Shopping Cart"
-"Update Cart","Update Cart"
+"Continue Shopping","Продолжить Покупки"
+"Clear Shopping Cart","Очистить Коризну"
+"Update Shopping Cart","Обновить Корзину"
+"Update Cart","Обновить Корзину"
 "See price before order confirmation.","See price before order confirmation."
 "What's this?","What's this?"
 "Edit item parameters","Edit item parameters"
 "Remove item","Remove item"
-"You have no items in your shopping cart.","You have no items in your shopping cart."
+"You have no items in your shopping cart.","Вы не добавили не одного товара в корзину."
 "Click <a href=""%1"">here</a> to continue shopping.","Click <a href=""%1"">here</a> to continue shopping."
 "Estimate Tax","Estimate Tax"
 "Estimate Shipping and Tax","Estimate Shipping and Tax"
 "Excl. Tax","Excl. Tax"
-"You added %1 to your <a href=""%2"">shopping cart</a>.","You added %1 to your <a href=""%2"">shopping cart</a>."
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Товар %1 добавлен в <a href=""%2"">корзину</a>."
 "Order #","Order #"
-"Proceed to Checkout","Proceed to Checkout"
+"Proceed to Checkout","Оформить заказ"
 "Incl. Tax","Incl. Tax"
 "Your order number is: %1.","Your order number is: %1."
 "Your order # is: <span>%1</span>.","Your order # is: <span>%1</span>."
@@ -1988,7 +1988,7 @@ Configurations,Configurations
 "Product with id ""%1"" does not contain required attribute ""%2"".","Product with id ""%1"" does not contain required attribute ""%2""."
 "Products ""%1"" and ""%2"" have the same set of attribute values.","Products ""%1"" and ""%2"" have the same set of attribute values."
 "You can't add the item to shopping cart.","You can't add the item to shopping cart."
-"You need to choose options for your item.","You need to choose options for your item."
+"You need to choose options for your item.","Необходимо выбрать параметры товара."
 "Some product variations fields are not valid.","Some product variations fields are not valid."
 "Configuration must have specified attributes","Configuration must have specified attributes"
 "Type %1 is not an instance of %2","Type %1 is not an instance of %2"
@@ -3161,8 +3161,8 @@ Error:,Error:
 "For successfully order items, you'll receive a confirmation email including order numbers, tracking information and more details.","For successfully order items, you'll receive a confirmation email including order numbers, tracking information and more details."
 "Successfully ordered","Successfully ordered"
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","No New Relic Application ID configured, cannot continue with Cron Event reporting"
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
-                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More
+                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>."
 "Delete Selected Problems","Delete Selected Problems"
 "Unsubscribe Selected","Unsubscribe Selected"
@@ -3941,7 +3941,7 @@ Approved,Approved
 "Assigned Options","Assigned Options"
 "Option Title:","Option Title:"
 Rating,Rating
-"See Details","See Details"
+"See Details","Выбранные параметры"
 "You have submitted no reviews.","You have submitted no reviews."
 "My Recent Reviews","My Recent Reviews"
 "View All","View All"
@@ -3950,7 +3950,7 @@ Rating,Rating
 "Submitted on %1","Submitted on %1"
 "Back to My Reviews","Back to My Reviews"
 "Ratings Review Summary","Ratings Review Summary"
-"Be the first to review this product","Be the first to review this product"
+"Be the first to review this product","Оставте свой отзыв"
 "Write Your Own Review","Write Your Own Review"
 "You're reviewing:","You're reviewing:"
 "Your Rating","Your Rating"
@@ -5568,7 +5568,7 @@ Update,Update
 "You can create an account after checkout.","You can create an account after checkout."
 "You already have an account with us. Sign in or continue as guest.","You already have an account with us. Sign in or continue as guest."
 Login,Login
-"Cart Subtotal","Cart Subtotal"
+"Cart Subtotal","Итого"
 "No Payment method available.","No Payment method available."
 "You can track your order status by creating an account.","You can track your order status by creating an account."
 "Forgot an Item?","Forgot an Item?"
@@ -5577,7 +5577,7 @@ Login,Login
 "Ship To:","Ship To:"
 edit,edit
 "Order Summary","Order Summary"
-"View and Edit Cart","View and Edit Cart"
+"View and Edit Cart","Просмотр и Редактирование Корзины"
 "View Details","View Details"
 "Contact Form","Contact Form"
 Phone,Phone
@@ -5813,7 +5813,7 @@ YY,YY
 "Please add rows to option.","Please add rows to option."
 "Choose existing category.","Choose existing category."
 "Image Detail","Image Detail"
-Adding...,Adding...
+Adding...,Добавление...
 remaining,remaining
 "too many","too many"
 "does not implement Storage Interface","does not implement Storage Interface"
@@ -6807,7 +6807,7 @@ Block,Block
 "Store Email Addresses Section","Store Email Addresses Section"
 "Email to a Friend","Email to a Friend"
 "Configurable Product Image","Configurable Product Image"
-"As low as: ","As low as: "
+"As low as: ","Цена от: "
 "Contacts Section","Contacts Section"
 Contacts,Contacts
 "Contact Us","Contact Us"

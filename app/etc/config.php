@@ -143,8 +143,6 @@ return [
         'Dotdigitalgroup_Email' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistSampleData' => 1,
-        'Mageplaza_Core' => 1,
-        'Mageplaza_Smtp' => 1,
         'Oakma_Twovikki' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1
