@@ -985,7 +985,7 @@ Canceled,Canceled
 Availability,Availability
 "In stock","В наличии"
 "Out of stock","Нет в наличии"
-Summary,Summary
+Summary,Тема
 "%1 x %2","%1 x %2"
 Availability:,Availability:
 "Customize %1","Customize %1"
@@ -3878,7 +3878,7 @@ Statistics,Statistics
 "New Review","New Review"
 "Review Details","Review Details"
 "Product Rating","Product Rating"
-Nickname,Nickname
+Nickname,Имя
 "Summary of Review","Summary of Review"
 "Save and Previous","Save and Previous"
 "Save and Next","Save and Next"
@@ -3940,7 +3940,7 @@ Approved,Approved
 "Please specify a rating title for a store, or we'll just use the default value.","Please specify a rating title for a store, or we'll just use the default value."
 "Assigned Options","Assigned Options"
 "Option Title:","Option Title:"
-Rating,Rating
+Rating,Оценка
 "See Details","Выбранные параметры"
 "You have submitted no reviews.","You have submitted no reviews."
 "My Recent Reviews","My Recent Reviews"
@@ -3952,10 +3952,10 @@ Rating,Rating
 "Ratings Review Summary","Ratings Review Summary"
 "Be the first to review this product","Оставте свой отзыв"
 "Write Your Own Review","Write Your Own Review"
-"You're reviewing:","You're reviewing:"
-"Your Rating","Your Rating"
+"You're reviewing:","Ваш отзыв на:"
+"Your Rating","Ваш рейтинг"
 "%1 %2","%1 %2"
-"Submit Review","Submit Review"
+"Submit Review","Отправить отзыв"
 "Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>"
 "Add Your Review","Add Your Review"
 "%1 Review(s)","%1 Review(s)"
@@ -5757,7 +5757,7 @@ Translate,Translate
 "Please select one of the options above.","Please select one of the options above."
 "Please select State/Province.","Please select State/Province."
 "Please select a file.","Please select a file."
-"This is a required field.","This is a required field."
+"This is a required field.","Поле обязательно для заполнения."
 "Please select one of the options.","Please select one of the options."
 "Please enter a value less than or equal to %s.","Please enter a value less than or equal to %s."
 "Please enter a value greater than or equal to %s.","Please enter a value greater than or equal to %s."
@@ -5875,7 +5875,7 @@ Allow,Allow
 "Edit Video","Edit Video"
 "Images and Videos","Images and Videos"
 "An error occurred while logging process.","An error occurred while logging process."
-"Please select one of each of the ratings above.","Please select one of each of the ratings above."
+"Please select one of each of the ratings above.","Пожалуйста, выберите оценку выше."
 "This won't take long . . .","This won't take long . . ."
 "Your coupon was successfully removed.","Your coupon was successfully removed."
 "Your coupon was successfully applied.","Your coupon was successfully applied."
