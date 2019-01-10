@@ -967,7 +967,7 @@ Required,Required
 Quantity:,Quantity:
 "Choose a selection...","Choose a selection..."
 "Ship Bundle Items","Ship Bundle Items"
-Position,Position
+Position,Позиция
 "There are no products in this option.","There are no products in this option."
 Default,Default
 Ordered,Ordered
@@ -1158,8 +1158,8 @@ name,name
 "Invalid URL key","Invalid URL key"
 "Please choose a condition to add.","Please choose a condition to add."
 "Add to Cart","Купить"
-"Add to Wish List","Add to Wish List"
-"Add to Compare","Add to Compare"
+"Add to Wish List","В список желаний"
+"Add to Compare","К сравнению"
 Root,Root
 "Use Config Settings","Use Config Settings"
 "Use All Available Attributes","Use All Available Attributes"
@@ -3834,13 +3834,13 @@ Carts,Carts
 "Products Most Viewed Report","Products Most Viewed Report"
 "Product Views Report","Product Views Report"
 "An error occurred while showing the product views report. Please review the log and try again.","An error occurred while showing the product views report. Please review the log and try again."
-Review,Review
-Reviews,Reviews
+Review,Отзыв
+Reviews,Отзывы
 "Customers Report","Customers Report"
 "Customer Reviews Report","Customer Reviews Report"
 "Product Reviews Report","Product Reviews Report"
 "Product Reviews","Product Reviews"
-Details,Details
+Details,Описание
 "Bestsellers Report","Bestsellers Report"
 Coupons,Coupons
 "Coupons Report","Coupons Report"
@@ -6680,7 +6680,7 @@ Comma-separated.,Comma-separated.
 "Product attributes to show","Product attributes to show"
 "Learn More Link","Learn More Link"
 "Buttons to show","Buttons to show"
-"Add to Wishlist","Add to Wishlist"
+"Add to Wishlist","В список желаний"
 "Viewed Products Grid Template","Viewed Products Grid Template"
 "Viewed Products List Template","Viewed Products List Template"
 "Viewed Products Sidebar Template","Viewed Products Sidebar Template"
