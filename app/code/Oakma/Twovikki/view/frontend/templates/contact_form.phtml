@@ -10,20 +10,6 @@
 					<input type="text" id="firstname" name="firstname" value="" title="First Name" class="input-text required-entry" data-validate="{required:true}" autocomplete="off" aria-required="true">
 				</div>
 			</div>
-			<div class="field field-name-lastname required">
-				<label class="label" for="lastname"><span>Last Name</span></label>
-				<div class="control">
-					<input type="text" id="lastname" name="lastname" value="" title="Last Name" class="input-text required-entry" data-validate="{required:true}" autocomplete="off" aria-required="true">
-				</div>
-			</div>
-
-			<div class="field choice newsletter">
-				<input type="checkbox" name="is_subscribed" title="Sign Up for Newsletter" value="1" id="is_subscribed" class="checkbox">
-				<label for="is_subscribed" class="label"><span>Sign Up for Newsletter</span></label>
-			</div>
-
-
-
 		</fieldset>
 		<fieldset class="fieldset create account" data-hasrequired="* Required Fields">
 			<legend class="legend"><span>Sign-in Information</span></legend><br>
@@ -31,26 +17,6 @@
 				<label for="email_address" class="label"><span>Email</span></label>
 				<div class="control">
 					<input type="email" name="email" autocomplete="email" id="email_address" value="" title="Email" class="input-text" data-validate="{required:true, 'validate-email':true}" aria-required="true">
-				</div>
-			</div>
-			<div class="field password required">
-				<label for="password" class="label"><span>Password</span></label>
-				<div class="control">
-					<input type="password" name="password" id="password" title="Password" class="input-text" data-password-min-length="8" data-password-min-character-sets="3" data-validate="{required:true, 'validate-customer-password':true}" autocomplete="off" aria-required="true">
-					<div id="password-strength-meter-container" data-role="password-strength-meter" aria-live="polite">
-						<div id="password-strength-meter" class="password-strength-meter">
-							Password Strength:
-							<span id="password-strength-meter-label" data-role="password-strength-meter-label">
-                            No Password                        </span>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<div class="field confirmation required">
-				<label for="password-confirmation" class="label"><span>Confirm Password</span></label>
-				<div class="control">
-					<input type="password" name="password_confirmation" title="Confirm Password" id="password-confirmation" class="input-text" data-validate="{required:true, equalTo:'#password'}" autocomplete="off" aria-required="true">
 				</div>
 			</div>
 		</fieldset>
