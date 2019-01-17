@@ -1,32 +1,39 @@
-	<form class="form create account form-create-account" data-mage-init='{"contactForm":{}}' action="http://2vikki.dz/customer/account/createpost/" method="post" id="form-validate" enctype="multipart/form-data" autocomplete="off" novalidate="novalidate">
+<div class="uk-container uk-margin-large">
+    <form class="form create account form-create-account contact-form" data-mage-init='{"contactForm":{"submitButton":"#submit-contract-form"}}' action="#" method="post" id="form-validate" autocomplete="off" novalidate="novalidate">
 		<input name="form_key" type="hidden" value="8ikjpudGI5fRassB">    <fieldset class="fieldset create info">
-			<legend class="legend"><span>Personal Information</span></legend><br>
 			<input type="hidden" name="success_url" value="">
 			<input type="hidden" name="error_url" value="">
 
 			<div class="field field-name-firstname required">
-				<label class="label" for="firstname"><span>First Name</span></label>
+				<label class="label" for="firstname"><span><?= __('Your Name') ?></span></label>
 				<div class="control">
-					<input type="text" id="firstname" name="firstname" value="" title="First Name" class="input-text required-entry" data-validate="{required:true}" autocomplete="off" aria-required="true">
+					<input type="text" id="firstname" name="firstname" value="" title="<?= __('Your Name') ?>" class="input-text required-entry" data-validate="{required:true}" autocomplete="off" aria-required="true">
 				</div>
 			</div>
+            <div class="field field-name-firstname required">
+                <label class="label" for="email"><span><?= __('Your E-mail') ?></span></label>
+                <div class="control">
+                    <input type="text" id="email" name="email" value="" title="<?= __('Your E-mail') ?>" class="input-text required-entry" data-validate="{required:true,email:true}" autocomplete="off" aria-required="true">
+                </div>
+            </div>
+            <div class="field field-name-firstname required">
+                <label class="label" for="subject"><span><?= __('Subject') ?></span></label>
+                <div class="control">
+                    <input type="text" id="subject" name="subject" value="" title="<?= __('Subject') ?>" class="input-text required-entry" data-validate="{required:true,maxlength:100,minlength:5}" autocomplete="off" aria-required="true">
+                </div>
+            </div>
+            <div class="field field-name-firstname required">
+                <label class="label" for="text"><span><?= __('E-mail Text') ?></span></label>
+                <div class="control">
+                    <textarea id="text" name="text" title="<?= __('E-mail Text') ?>" class="input-text required-entry" data-validate="{required:true,maxlength:300,minlength:20}" autocomplete="off" aria-required="true"></textarea>
+                </div>
+            </div>
 		</fieldset>
-		<fieldset class="fieldset create account" data-hasrequired="* Required Fields">
-			<legend class="legend"><span>Sign-in Information</span></legend><br>
-			<div class="field required">
-				<label for="email_address" class="label"><span>Email</span></label>
-				<div class="control">
-					<input type="email" name="email" autocomplete="email" id="email_address" value="" title="Email" class="input-text" data-validate="{required:true, 'validate-email':true}" aria-required="true">
-				</div>
-			</div>
-		</fieldset>
-		<div class="actions-toolbar">
-			<div class="primary">
-				<button type="submit" class="action submit primary" title="Create an Account"><span>Create an Account</span></button>
-			</div>
-			<div class="secondary">
-				<a class="action back" href="http://2vikki.dz/customer/account/login/referer/aHR0cDovLzJ2aWtraS5kei9jdXN0b21lci9hY2NvdW50L2NyZWF0ZS8%2C/"><span>Back</span></a>
-			</div>
+        <div class="uk-text-center uk-margin-bottom contact-form-recaptcha">
+		    <?= $block->getChildHtml() ?>
+        </div>
+		<div class="uk-text-center">
+            <button type="submit" class="action submit primary" id="submit-contract-form" title="<?= __('Submit E-mail') ?>"><span><?= __('Submit E-mail') ?></span></button>
 		</div>
 	</form>
 	<script>
@@ -44,3 +51,4 @@
 
         });*/
 	</script>
+</div>

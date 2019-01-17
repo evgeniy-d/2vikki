@@ -5815,9 +5815,6 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
     -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%)
 }
 
-.uk-overlay > :first-child {
-    margin-bottom: 0
-}
 
 .uk-overlay-panel {
     position: absolute;
@@ -6845,6 +6842,13 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
 
     .uk-dropdown-grid > [class*='uk-width-']:nth-child(n+2) {
         margin-top: 25px
+    }
+
+    .uk-subnav > li {
+        width: calc(50% - 20px);
+    }
+    .uk-subnav > li::before {
+        display: none;
     }
 }
 
@@ -9156,6 +9160,10 @@ html {
     .twv-subnav {
         margin-top: 0
     }
+
+    .twv-home-product-samle-img img {
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -9182,7 +9190,7 @@ html {
 .twv-hero .twv-info-block{
     background: #ffffffc4;
     color: #000;
-    margin-left: 50%;
+    margin-left: auto;
     padding: 15px;
 }
 @media (min-width: 960px) {

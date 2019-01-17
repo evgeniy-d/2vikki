@@ -1690,7 +1690,7 @@ Show,Show
 "Set Ascending Direction","Set Ascending Direction"
 "Set Descending Direction","Set Descending Direction"
 "View as","View as"
-"More Information","More Information"
+"More Information","Характеристики"
 "Maximum %1 characters","Maximum %1 characters"
 "Terms and Conditions","Terms and Conditions"
 "Add New Condition","Add New Condition"
@@ -2126,7 +2126,7 @@ Newsletter,Newsletter
 "Start date","Start date"
 "End Date","End Date"
 "Receive Date","Receive Date"
-Subject,Subject
+Subject,Тема
 Sent,Sent
 "Not Sent","Not Sent"
 Sending,Sending
@@ -3219,7 +3219,7 @@ Subscribers,Subscribers
 "This is an invalid subscription ID.","This is an invalid subscription ID."
 "This email address is already assigned to another user.","This email address is already assigned to another user."
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>."
-"Please enter a valid email address.","Please enter a valid email address."
+"Please enter a valid email address.","Пожалуйста, введите действительный адрес электронной почты."
 "This email address is already subscribed.","This email address is already subscribed."
 "The confirmation request has been sent.","The confirmation request has been sent."
 "Thank you for your subscription.","Thank you for your subscription."
@@ -5705,7 +5705,7 @@ Ok,Ok
 "Please wait...","Please wait..."
 Translate,Translate
 "Please enter {0} words or less.","Please enter {0} words or less."
-"Please enter at least {0} words.","Please enter at least {0} words."
+"Please enter at least {0} words.","Пожалуйста, введите не менее {0} символов."
 "Please enter between {0} and {1} words.","Please enter between {0} and {1} words."
 "Letters or punctuation only please","Letters or punctuation only please"
 "Letters, numbers, spaces or underscores only please","Letters, numbers, spaces or underscores only please"
@@ -5782,7 +5782,7 @@ Translate,Translate
 "Please enter a valid date (ISO).","Please enter a valid date (ISO)."
 "Please enter only digits.","Please enter only digits."
 "Please enter the same value again.","Please enter the same value again."
-"Please enter no more than {0} characters.","Please enter no more than {0} characters."
+"Please enter no more than {0} characters.","Пожалуйста, введите не более {0} cимволов."
 "Please enter at least {0} characters.","Please enter at least {0} characters."
 "Please enter a value between {0} and {1} characters long.","Please enter a value between {0} and {1} characters long."
 "Please enter a value between {0} and {1}.","Please enter a value between {0} and {1}."
@@ -7763,3 +7763,7 @@ Machinable,Machinable
 "No Items Found","No Items Found"
 "Product Details and Comment","Product Details and Comment"
 "Add To Wishlist","Add To Wishlist"
+"Your Name","Имя"
+"Your E-mail","E-mail"
+"E-mail Text","Текст Письма"
+"Submit E-mail","Отправить письмо"
