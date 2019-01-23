@@ -566,11 +566,11 @@ Shipping,Shipping
 "All Store Views","All Store Views"
 "What is this?","What is this?"
 "Save Account","Save Account"
-"My Account","My Account"
-"Account Information","Account Information"
+"My Account","Мой аккаунт"
+"Account Information","Информация аккаунта"
 "User Name","User Name"
-"First Name","First Name"
-"Last Name","Last Name"
+"First Name","Имя"
+"Last Name","Фамилия"
 Email,Email
 "User Email","User Email"
 "New Password","New Password"
@@ -779,8 +779,8 @@ Magento,Magento
 "Sign Out","Sign Out"
 "About the calendar","About the calendar"
 "Go Today","Go Today"
-Previous,Previous
-Next,Next
+Previous,Предыдущее
+Next,Далее
 WK,WK
 Time,Time
 Hour,Hour
@@ -885,7 +885,7 @@ FTP,FTP
 "FTP Password","FTP Password"
 "Magento root directory","Magento root directory"
 "Create Backup","Create Backup"
-Country,Country
+Country,Страна
 "Allowed Credit Card Types","Allowed Credit Card Types"
 "Add Rule","Add Rule"
 "Braintree Settlement Report","Braintree Settlement Report"
@@ -995,7 +995,7 @@ From:,From:
 To:,To:
 Message:,Message:
 "Product Name","Product Name"
-Subtotal,Subtotal
+"Subtotal","Промежуточный итог"
 "Discount Amount","Discount Amount"
 "Row Total","Row Total"
 "Qty Invoiced","Qty Invoiced"
@@ -1723,9 +1723,9 @@ Manually,Manually
 "Unable to save checkout agreement %1","Unable to save checkout agreement %1"
 "Unable to remove checkout agreement %1","Unable to remove checkout agreement %1"
 "Checkout agreement with specified ID ""%1"" not found.","Checkout agreement with specified ID ""%1"" not found."
-"Shopping Cart","Shopping Cart"
+"Shopping Cart","Корзина"
 "Invalid method: %1","Invalid method: %1"
-City,City
+City,Город
 State/Province,State/Province
 "Zip/Postal Code","Zip/Postal Code"
 "My Cart (1 item)","My Cart (1 item)"
@@ -1782,9 +1782,9 @@ Checkout,Checkout
 Error!,Error!
 "DB exception","DB exception"
 "Print receipt","Print receipt"
-"Apply Discount Code","Apply Discount Code"
-"Enter discount code","Enter discount code"
-"Apply Discount","Применить Дисконт"
+"Apply Discount Code","Применить купон"
+"Enter discount code","Введите код купона"
+"Apply Discount","Применить"
 "Cancel Coupon","Отменить Купон"
 "Shopping Cart Items","Товары в Корзине"
 Item,Item
@@ -1797,7 +1797,7 @@ Item,Item
 "Edit item parameters","Edit item parameters"
 "Remove item","Remove item"
 "You have no items in your shopping cart.","Вы не добавили не одного товара в корзину."
-"Click <a href=""%1"">here</a> to continue shopping.","Click <a href=""%1"">here</a> to continue shopping."
+"Click <a href=""%1"">here</a> to continue shopping.","Нажмите <a href=""%1"">тут</a> для продолжения покупок."
 "Estimate Tax","Estimate Tax"
 "Estimate Shipping and Tax","Estimate Shipping and Tax"
 "Excl. Tax","Excl. Tax"
@@ -1805,9 +1805,9 @@ Item,Item
 "Order #","Order #"
 "Proceed to Checkout","Оформить заказ"
 "Incl. Tax","Incl. Tax"
-"Your order number is: %1.","Your order number is: %1."
-"Your order # is: <span>%1</span>.","Your order # is: <span>%1</span>."
-"We'll email you an order confirmation with details and tracking info.","We'll email you an order confirmation with details and tracking info."
+"Your order number is: %1.","Номер вашего заказа: %1."
+"Your order # is: <span>%1</span>.","Номер вашего заказа: <span>%1</span>."
+"We'll email you an order confirmation with details and tracking info.","Мы вышлем вам подтверждение заказа с подробной информацией о заказе."
 "Static Blocks","Static Blocks"
 "Add New Block","Add New Block"
 "Delete Block","Delete Block"
@@ -2051,7 +2051,7 @@ Options,Options
 "Invalid email address","Invalid email address"
 "Write Us","Write Us"
 "Jot us a note and we’ll get back to you as quickly as possible.","Jot us a note and we’ll get back to you as quickly as possible."
-"Phone Number","Phone Number"
+"Phone Number","Телефон"
 "What’s on your mind?","What’s on your mind?"
 "Invalid domain name: %1","Invalid domain name: %1"
 "Invalid cookie lifetime: %1","Invalid cookie lifetime: %1"
@@ -2135,7 +2135,7 @@ Unknown,Unknown
 Purchased,Purchased
 "Bill-to Name","Bill-to Name"
 "Ship-to Name","Ship-to Name"
-"Order Total","Order Total"
+"Order Total","Итого"
 "Purchase Point","Purchase Point"
 "There are no items in customer's shopping cart.","There are no items in customer's shopping cart."
 Confirmed,Confirmed
@@ -3087,7 +3087,7 @@ Synchronizing...,Synchronizing...
 "Billing Information - %1","Billing Information - %1"
 "Review Order - %1","Review Order - %1"
 "Total for this address","Total for this address"
-"Shipping Methods","Shipping Methods"
+"Shipping Methods","Методы доставки"
 "Edit Billing Address","Edit Billing Address"
 "Edit Shipping Address","Edit Shipping Address"
 "Create Billing Address","Create Billing Address"
@@ -4444,7 +4444,7 @@ Number,Number
 "The order does not allow a shipment to be created.","The order does not allow a shipment to be created."
 """Creditmemo Document Validation Error(s):\n"" .","""Creditmemo Document Validation Error(s):\n"" ."
 "Could not save a Creditmemo, see error log for details","Could not save a Creditmemo, see error log for details"
-"Street Address","Street Address"
+"Street Address","Адрес"
 "We can't save the address:\n%1","We can't save the address:\n%1"
 "Cannot save comment:\n%1","Cannot save comment:\n%1"
 "We don't have enough information to save the parent transaction ID.","We don't have enough information to save the parent transaction ID."
@@ -5273,7 +5273,7 @@ username,username
 "You need more permissions to access this.","You need more permissions to access this."
 "User Name is a required field.","User Name is a required field."
 "First Name is a required field.","First Name is a required field."
-"Last Name is a required field.","Last Name is a required field."
+"Last Name is a required field.","Фамилия is a required field."
 "Password is required field.","Password is required field."
 "Your password must be at least %1 characters.","Your password must be at least %1 characters."
 "Your password must include both numeric and alphabetic characters.","Your password must include both numeric and alphabetic characters."
@@ -5561,7 +5561,7 @@ Total:,Total:
 "Billing Address:","Billing Address:"
 "Shipping Address:","Shipping Address:"
 "Date & Time:","Date & Time:"
-"Email Address","Email Address"
+"Email Address","E-mail"
 "My billing and shipping address are the same","My billing and shipping address are the same"
 Update,Update
 "Estimated Total","Estimated Total"
@@ -6753,7 +6753,7 @@ Overview,Overview
 "We'll send your order confirmation here.","We'll send your order confirmation here."
 Payment,Payment
 "We received your order!","We received your order!"
-"Thank you for your purchase!","Thank you for your purchase!"
+"Thank you for your purchase!","Спасибо за Ваш заказ!"
 "Media Gallery","Media Gallery"
 "Content Management","Content Management"
 "CMS Home Page","CMS Home Page"
